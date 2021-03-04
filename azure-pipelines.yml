@@ -25,4 +25,4 @@ steps:
   inputs:
     command: 'test'
     projects: 'TodoApiDTO.Test/TodoApiDTO.Test.csproj'
-
+    testRunTitle: 'Run unit tests'
