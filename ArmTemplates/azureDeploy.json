@@ -40,8 +40,8 @@
     }
   ],
    "outputs": {
-    "resources-app-api": {
-      "type": "object",
+    "app-api": {
+      "type": "string",
       "value": "todoDemoApp"
     }
    }
