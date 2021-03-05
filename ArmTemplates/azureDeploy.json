@@ -41,8 +41,8 @@
   ],
    "outputs": {
     "app-api": {
-      "type": "string",
-      "value": "todoDemoApp-anpa"
+     "type": "object",
+    "value": "[reference('todoDemoApp-anpa')]"
     }
    }
 }
