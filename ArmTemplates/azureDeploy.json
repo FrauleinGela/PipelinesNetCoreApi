@@ -22,19 +22,19 @@
       }
     },
     {
-      "name": "todoDemoApp",
+      "name": "todoDemoApp-anpa",
       "type": "Microsoft.Web/sites",
       "apiVersion": "2018-11-01",
       "location": "[resourceGroup().location]",
       "tags": {
         "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/todoDemoPlan')]": "Resource",
-        "displayName": "todoDemoApp"
+        "displayName": "todoDemoApp-anpa"
       },
       "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', 'todoDemoPlan')]"
       ],
       "properties": {
-        "name": "todoDemoApp",
+        "name": "todoDemoApp-anpa",
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', 'todoDemoPlan')]"
       }
     }
@@ -42,7 +42,7 @@
    "outputs": {
     "app-api": {
       "type": "string",
-      "value": "todoDemoApp"
+      "value": "todoDemoApp-anpa"
     }
    }
 }
