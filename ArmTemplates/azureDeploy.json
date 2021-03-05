@@ -40,9 +40,9 @@
     }
   ],
    "outputs": {
-    "app-api": {
+    "resource-app-api": {
      "type": "object",
-    "value": "[reference('todoDemoApp-anpa')]"
+     "value": "[reference('todoDemoApp-anpa')]"
     }
    }
 }
